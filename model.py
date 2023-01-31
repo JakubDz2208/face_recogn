@@ -1,10 +1,8 @@
 import tensorflow as tf
 
-from keras import datasets, layers, models
+from keras import layers, models
 from keras.preprocessing.image import ImageDataGenerator
 
-import matplotlib.pyplot as plt
-from keras import backend as K
 
 train_images_path = "images/train"
 test_images_path = "images/validation"
